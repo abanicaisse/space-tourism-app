@@ -1,0 +1,21 @@
+/* CSS variables for the app */
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+:root {
+  /* Colors */
+  --color-primary: #0b0d17;
+  --color-secondary: #d0d6f9;
+  --color-white: #ffffff;
+  --font-family: "Bellefair", serif;
+
+  /* Typography */
+  --heading1: 150px;
+  --heading2: 100px;
+  --heading3: 58px;
+  --heading4: 32px;
+  --heading5: 28px;
+
+  --subheading1: 28px;
+  --subheading2: 14px;
+  --text-size: 16px;
+}
