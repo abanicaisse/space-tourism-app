@@ -1,17 +1,24 @@
 import React from "react";
-import { Crew, Destination, Technology } from "./components";
+import { Route, Routes, Link } from "react-router-dom";
+import { Home, Crew, Destination, Technology } from "./pages";
+import {
+  CrewComponent,
+  DestinationComponent,
+  Navbar,
+  TechnologyComponent,
+} from "./components";
 
 import "./App.css";
 
 const App = () => {
   return (
     <div className="App">
-      <div className="gradient__bg">
-        <h1>APPLICATION VIEW</h1>
-        <Crew />
-        <Destination />
-        <Technology />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/crew" element={<Crew />} />
+        <Route path="/destination" element={<Destination />} />
+        <Route path="/technology" element={<Technology />} />
+      </Routes>
     </div>
   );
 };
