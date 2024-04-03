@@ -12,6 +12,11 @@ body {
   font-family: var(--font-family);
 }
 
-.block-margin {
+/* .block-margin {
   margin: 40px 0;
 }
+
+.component-maxwidth {
+  max-width: 1440px;
+  margin: auto;
+} */
