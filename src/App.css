@@ -13,10 +13,5 @@ body {
 }
 
 .block-margin {
-  margin-top: 40px;
-}
-
-.component-maxwidth {
-  max-width: 1440px;
-  margin: auto;
+  margin: 40px 0;
 }
