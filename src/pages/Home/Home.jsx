@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       <Navbar />
 
-      <div className="home__container .component-maxwidth">
+      <div className="home__container">
         <div className="home__container-text">
           <h5>SO, YOU WANT TO TRAVEL TO</h5>
           <h1>SPACE</h1>
